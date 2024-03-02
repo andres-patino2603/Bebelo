@@ -1,0 +1,43 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+}
+
+.cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    border: 1px red solid ;
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW13NLZ?ver=3bbc)");
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main{
+    background: transparent;
+    backdrop-filter: blur(2px);
+    display: flex;
+    padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 35vh;
+  border-radius: 10px;
+  border: 1px gray solid ;
+}
+main h1{
+    text-align: center;
+}
+main h3{
+    overflow-wrap: break-word;
+    font-size: 0.8em;
+}
