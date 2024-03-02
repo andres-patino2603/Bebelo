@@ -1,0 +1,7 @@
+{
+  "name": "Bebetelo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
